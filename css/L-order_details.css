@@ -1,0 +1,203 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .title {
+  padding: 15px 0;
+}
+.content .title ul li {
+  float: left;
+}
+.content .title ul li a {
+  color: #2c2c2c;
+}
+.content .title ul li:last-child {
+  color: #ff0000;
+}
+.content .sidebar {
+  width: 220px;
+  height: 530px;
+  border: 2px solid #737373;
+  text-align: center;
+  float: left;
+}
+.content .sidebar h2:first-child {
+  margin-top: 25px;
+}
+.content .sidebar h2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px 15px;
+  margin: 0 auto;
+  width: 100px;
+  border-bottom: 1px solid #101113;
+}
+.content .sidebar ul li {
+  margin: 8px 0;
+}
+.content .sidebar ul li a {
+  color: #2c2c2c;
+}
+.content .sidebar ul li a:hover {
+  color: #ff0000;
+}
+.content .sidebar ul li.current a {
+  color: #ff0000;
+}
+.content .main {
+  float: right;
+  width: 917px;
+  margin-top: 25px;
+}
+.content .main .adress p {
+  font-size: 18px;
+  border-bottom: 1px dashed #2c2c2c;
+  margin: 6px 0;
+}
+.content .main .order_details em {
+  font-style: normal;
+}
+.content .main .order_details .details_list {
+  border: 1px #737373 solid;
+  margin-top: 35px;
+}
+.content .main .order_details .details_list p {
+  border-bottom: 1px dashed #737373;
+  padding: 5px 0;
+  padding-left: 30px;
+}
+.content .main .order_details .details_list dl {
+  padding: 5px 30px 35px 30px;
+}
+.content .main .order_details .details_list dl dt {
+  float: left;
+  line-height: 30px;
+}
+.content .main .order_details .details_list dl dd {
+  line-height: 30px;
+}
+.content .main .order_details .details_list dl dd.price {
+  color: #ff0000;
+}
+.content .main .order_details .details_list table {
+  width: 100%;
+  text-align: center;
+}
+.content .main .order_details .details_list table td {
+  padding: 25px 0;
+}
+.content .main .order_details .details_list table td.goodsNum {
+  font-size: 24px;
+}
+.content .main .order_details .details_list table td.endprice {
+  font-size: 30px;
+  color: #ff0000;
+}
+.content .main .order_details .details_list table .goodsImg {
+  width: 400px;
+}
+.content .main .order_details .details_list table .goodsImg a {
+  color: #000;
+}
+.content .main .order_details .details_list table .goodsImg a:hover {
+  color: #ff0000;
+}
+.content .main .order_details .details_list table .goodsImg div {
+  float: left;
+  margin-left: 30px;
+}
+.content .main .order_details .details_list table dl.goodsMessage {
+  float: left;
+  font-size: 14px;
+  padding: 0;
+  padding-left: 35px;
+  text-align: left;
+}
+.content .main .order_details .details_list table dl.pricedl {
+  font-size: 24px;
+  position: relative;
+  top: 17.5px;
+}
+.content .main .order_details .details_list table dl.pricedl dd.through {
+  text-decoration: line-through;
+  color: #737373;
+}
+.content .main .order_details .sure_order {
+  font-size: 16px;
+}
+.content .main .order_details .sure_order dd {
+  float: left;
+}
+.content .main .order_details .sure_order dd.price {
+  color: #ff0000;
+}
+.content .main .order_details .sure_order dt:first-child {
+  padding-left: 90px;
+}
+.content .main .order_details .sure_order dt {
+  margin-left: 50px;
+}

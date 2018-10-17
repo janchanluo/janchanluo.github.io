@@ -1,0 +1,113 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .pay_failure {
+  margin: 110px 0 0 200px;
+}
+.content .pay_failure .failureImg {
+  background: url(../images/pay_success.png) no-repeat;
+  width: 160PX;
+  height: 160PX;
+  float: left;
+}
+.content .pay_failure .failureTxt {
+  position: relative;
+  left: 25px;
+}
+.content .pay_failure .failureTxt p {
+  margin-bottom: 30px;
+}
+.content .pay_failure .failureTxt p.order-success {
+  font-size: 48px;
+}
+.content .pay_failure .failureTxt p.order-message {
+  font-size: 24px;
+}
+.content .pay_failure .failureTxt p.order-message span {
+  color: #d70707;
+}
+.content .pay_failure .failureTxt p.order-message span em {
+  font-style: normal;
+}
+.content .pay_failure .failureTxt p.order-message a {
+  margin-left: 80px;
+  color: #2c2c2c;
+}
+.content .pay_failure button {
+  width: 125px;
+  height: 40px;
+  background-color: #dddada;
+  border: none;
+  font-size: 24px;
+  line-height: 40px;
+  margin-right: 90px;
+  cursor: pointer;
+}
+.content .pay_failure button:hover {
+  color: #d70707;
+}

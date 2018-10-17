@@ -1,0 +1,144 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+footer {
+  margin-top: 120px;
+  position: relative;
+  bottom: 0;
+}
+footer .footerone {
+  width: 1200px;
+  font-family: "微软雅黑";
+  margin: 0 auto;
+}
+footer .footerone .first-footer {
+  width: 783px;
+  margin: 0 auto;
+}
+footer .footerone .first-footer li {
+  width: 150px;
+  float: left;
+  margin: 0 55.5px;
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 18px;
+}
+footer .footerone .first-footer li span {
+  width: 87px;
+  height: 87px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+footer .footerone .first-footer li:first-child span {
+  background: url(../images/ft1.png) no-repeat;
+}
+footer .footerone .first-footer li:nth-child(2) span {
+  background: url(../images/ft2.png) no-repeat;
+}
+footer .footerone .first-footer li:last-child span {
+  background: url(../images/ft3.png) no-repeat;
+}
+footer .footerone .second-footer {
+  padding-top: 60px;
+  width: 1002px;
+  margin: 0 auto;
+}
+footer .footerone .second-footer dl {
+  float: left;
+  padding-right: 136px;
+}
+footer .footerone .second-footer dl dt {
+  font-size: 22px;
+}
+footer .footerone .second-footer dl dd {
+  font-size: 16px;
+  margin: 10px 0;
+}
+footer .footerone .second-footer dl dd a {
+  color: #2c2c2c;
+  font-family: "微软雅黑";
+}
+footer .footerone .second-footer dl:last-child {
+  padding-right: 0;
+}
+footer .footertwo {
+  background-color: #101113;
+  height: 70px;
+  margin-top: 55px;
+}
+footer .footertwo .copyright {
+  line-height: 70px;
+  width: 783px;
+  margin: 0 auto;
+}
+footer .footertwo .copyright p {
+  color: #fff;
+  font-size: 14px;
+}
+footer .footertwo .copyright p:first-child {
+  float: left;
+}
+footer .footertwo .copyright p:last-child {
+  float: right;
+}

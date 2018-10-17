@@ -1,0 +1,234 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.auto {
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.txtcenteralign {
+  text-align: center;
+}
+#fixdheader {
+  width: 100%;
+  height: 40px;
+  background-color: #101113;
+  font-size: 16px;
+  position: fixed;
+  z-index: 999;
+}
+#fixdheader .fixdheader-content {
+  width: 1200px;
+  line-height: 40px;
+  color: #fff;
+  margin: 0 auto;
+}
+#fixdheader .fixdheader-content .left {
+  float: left;
+}
+#fixdheader .fixdheader-content .left p a {
+  color: #00b7fb;
+}
+#fixdheader .fixdheader-content .right {
+  float: right;
+}
+#fixdheader .fixdheader-content .right ul li {
+  float: left;
+  padding: 0 15px;
+  cursor: pointer;
+}
+#fixdheader .fixdheader-content .right ul li:last-child {
+  padding-right: 0;
+}
+header {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  height: 190px;
+  top: 40px;
+}
+header .header-top .logo {
+  padding-top: 15px;
+  float: left;
+}
+header .header-top .logo .logoimg {
+  border-right: 1px solid #666;
+  padding-right: 20px;
+  float: left;
+}
+header .header-top .logo p {
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+  width: 500px;
+  z-index: -1;
+}
+header .header-top .search {
+  float: right;
+  padding-top: 35px;
+}
+header .header-top .search .search-input {
+  float: left;
+}
+header .header-top .search .search-input ul > li {
+  float: left;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+header .header-top .search .search-input ul > li:hover {
+  color: #ff0000;
+}
+header .header-top .search input[type=text] {
+  width: 355px;
+  height: 45px;
+  border: 3px solid #101113;
+  padding-left: 10px;
+}
+header .header-top .search input[type=button] {
+  margin-right: 35px;
+  width: 122px;
+  color: #fff;
+  cursor: pointer;
+  height: 51px;
+  position: relative;
+  top: 2px;
+  left: -4px;
+  background-color: #101113;
+  border: none;
+}
+header .header-top .search .shoppingcar {
+  float: right;
+  position: relative;
+  padding-top: 25px;
+  line-height: 29px;
+}
+header .header-top .search .shoppingcar p {
+  float: left;
+  padding: 0 10px;
+}
+header .header-top .search .shoppingcar .carimg {
+  background: url(../images/shoppingcar.png) no-repeat;
+  width: 32px;
+  height: 29px;
+}
+header .header-top .search .shoppingcar span {
+  background: url(../images/redr.png) no-repeat;
+  width: 18px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  font-size: 12px;
+  color: #fff;
+  left: 37px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+}
+header .header-bottom {
+  margin-top: 25px;
+  height: 60px;
+}
+header .header-bottom ul > li {
+  float: left;
+  padding: 20px 0;
+  font-size: 20px;
+}
+header .header-bottom ul > li a {
+  color: #2c2c2c;
+  padding: 22px 30px;
+}
+header .header-bottom ul > li a:hover {
+  color: #ff0000;
+}
+header .header-bottom .trigonBottom {
+  background: url(../images/trigonBottom.png) no-repeat;
+  width: 22px;
+  height: 14px;
+  display: block;
+  position: relative;
+  left: 152px;
+  top: -14px;
+}
+header .header-bottom .trigonTop {
+  background: url(../images/trigonTop.png) no-repeat;
+  width: 22px;
+  display: block;
+  margin: 0 auto;
+  height: 14px;
+}
+header .header-bottom .title-ulhover {
+  background-color: #101113;
+}
+header .header-bottom .one > li:first-child {
+  text-align: center;
+  width: 180px;
+}
+header .header-bottom .one > li:first-child .title-ul {
+  position: absolute;
+  display: none;
+  text-align: center;
+  z-index: 1;
+}
+header .header-bottom .one > li:first-child .title-ul li {
+  clear: both;
+  width: 180px;
+  margin: 1px 0;
+  background-color: #e6e0e0;
+}
+header .header-bottom .one > li:first-child .title-ul li:hover {
+  background-color: #3f3e3e;
+}
+header .header-bottom .one > li:first-child .title-ul li a {
+  padding: 22px 60px;
+}
+header .header-bottom .one > li:first-child .title-ul li a:hover {
+  color: #fff;
+}
+header .header-bottom .one > li:first-child .title-ul li .special {
+  padding: 22px 50px;
+}

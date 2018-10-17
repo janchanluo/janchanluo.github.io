@@ -1,0 +1,307 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.auto {
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.txtcenteralign {
+  text-align: center;
+}
+.hoverblack {
+  width: 100%;
+  height: 6px;
+  background-color: #101113;
+  position: absolute;
+  margin-top: 30px;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .title {
+  padding: 15px 0;
+}
+.content .title ul li {
+  float: left;
+}
+.content .title ul li a {
+  color: #2c2c2c;
+}
+.content .title ul li:last-child {
+  color: #ff0000;
+}
+.content .goodsmessage .left .goodsshow {
+  float: left;
+}
+.content .goodsmessage .left .goodsshow ul {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.content .goodsmessage .left .goodsshow ul li {
+  float: left;
+  padding: 0 5px;
+}
+.content .goodsmessage .left .goodsshow .changeleft {
+  background: url(../images/com_detailsleft.png) no-repeat;
+  width: 23px;
+  height: 46px;
+  display: block;
+  padding-right: 5px;
+  margin-top: 20px;
+  float: left;
+}
+.content .goodsmessage .left .goodsshow .changeright {
+  background: url(../images/com_detailsright.png) no-repeat;
+  width: 23px;
+  height: 46px;
+  display: block;
+  margin-top: 20px;
+  float: right;
+}
+.content .goodsmessage .right {
+  width: 595px;
+  float: right;
+}
+.content .goodsmessage .right .title p:first-child {
+  line-height: 40px;
+  font-size: 22px;
+  margin-top: -10px;
+}
+.content .goodsmessage .right .title p:last-child {
+  line-height: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.content .goodsmessage .right .otermessage em {
+  font-style: normal;
+}
+.content .goodsmessage .right .otermessage dt {
+  float: left;
+  font-size: 16px;
+}
+.content .goodsmessage .right .otermessage dd {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+.content .goodsmessage .right .otermessage dd.spec span {
+  background-color: #e6e3e3 ;
+  width: 74px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  line-height: 32px;
+  margin-right: 50px;
+}
+.content .goodsmessage .right .otermessage dd.spec span:last-child {
+  margin-right: 0;
+}
+.content .goodsmessage .right .otermessage dd.choosenum strong {
+  background-color: #cbc9c9 ;
+  font-weight: 400;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  margin-left: -5px;
+}
+.content .goodsmessage .right .otermessage dd.choosenum strong:first-child {
+  margin-left: 0 ;
+}
+.content .goodsmessage .right .otermessage dd.choosenum strong:nth-child(2) {
+  background-color: #e6e3e3 ;
+  width: 45px;
+  height: 24px;
+}
+.content .goodsmessage .right .otermessage dd.choosenum span {
+  margin-left: 30px;
+}
+.content .goodsmessage .right .otermessage dd.choosenum span em {
+  color: #ff0000;
+  font-style: normal;
+}
+.content .goodsmessage .right .otermessage .price {
+  color: #ff0000;
+}
+.content .goodsmessage .right .otermessage .sale {
+  color: #ff0000;
+}
+.content .goodsmessage .right .otermessage .submit {
+  text-align: center;
+  margin-top: 35px;
+}
+.content .goodsmessage .right .otermessage .submit button {
+  background-color: #b40303;
+  border: none;
+  width: 172px;
+  height: 55px;
+  margin-right: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+.content .goodsmessage .right .otermessage ol {
+  margin-top: 45px;
+}
+.content .goodsmessage .right .otermessage ol li {
+  float: left;
+  margin-right: 60px;
+}
+.content .section {
+  margin-top: 65px;
+}
+.content .section .goodsrecommend {
+  width: 291px;
+  float: left;
+}
+.content .section .goodsrecommend p.title {
+  background-color: #101113;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.content .section .goodsrecommend ul {
+  margin-bottom: 145px;
+}
+.content .section .goodsrecommend ul li {
+  font-size: 0;
+  margin: 14px 0;
+  border: 1px solid #101113;
+}
+.content .section .goodsrecommend ul.connect div {
+  height: 50px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.content .section .goodsrecommend ul.connect div p {
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.content .section .goodsrecommend ul.connect div p em {
+  color: #ff0000;
+  font-style: normal;
+}
+.content .section .goodsrecommend ul.connect div p span {
+  font-size: 24px;
+  color: #ff0000;
+}
+.content .section .goodsrecommend ul.connect div p:last-child {
+  float: right;
+  color: #868585;
+  position: relative;
+  left: -10px;
+}
+.content .section .goodsrecommend ul.hot {
+  margin-bottom: 0;
+}
+.content .section .goodsrecommend ul.hot li div {
+  height: 80px;
+  line-height: 20px;
+}
+.content .section .goodsrecommend ul.hot li div p {
+  padding: 5px;
+  font-size: 12px;
+  width: 80%;
+}
+.content .section .goodsrecommend ul.hot li div p:last-child {
+  margin-top: -10px;
+  color: #868585;
+}
+.content .section .comment {
+  width: 873px;
+  float: right;
+}
+.content .section .comment .comment-title ul {
+  font-size: 24px;
+  border-bottom: 4px solid #101113;
+  height: 35px;
+}
+.content .section .comment .comment-title ul li.current {
+  color: #ff0000;
+}
+.content .section .comment .comment-title ul li {
+  float: left;
+  cursor: pointer;
+  padding: 0 50px;
+}
+.content .section .comment .comment-title ul li:hover {
+  color: #ff0000;
+}
+.content .section .comment .comment-title ul li strong {
+  background-color: #101113;
+  display: inline-block;
+  height: 10px;
+  width: 100%;
+  border-radius: 50px;
+  position: relative;
+  top: -12px;
+}
+.content .section .comment .descripttion .left {
+  float: left;
+  height: 354px;
+  font-size: 20px;
+  border: 2px solid #000;
+  width: 200px;
+  padding: 10px 20px 0 20px;
+  line-height: 35px;
+}
+.content .section .comment .descripttion .left p {
+  font-size: 24px;
+}
+.content .section .comment .descripttion .left dt {
+  float: left;
+}
+.content .section .comment .descripttion .right {
+  float: right;
+}

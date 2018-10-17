@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/L-login.css">
+    <link rel="stylesheet" type="text/css" href="../css/L-footer.css">
+</head>
+
+<body>
+        <div id="fixdheader">
+                <div class="fixdheader-content">
+                    <div class="fixdheader_left">
+                        <p>尚为商城欢迎您，
+                            <a href="login.html">登录</a>/<a href="register.html">注册</a>
+                        </p>
+                    </div>
+                    <div class="fixdheader_right">
+                        <ul>
+                           
+                                <li><a href="user.html">用户中心 </a></li>
+                                <li> <a href="#">我的足迹 </a></li>
+                                <li><a href="#">联系客服</a></li>
+                                <li><a href="#">帮助中心</a></li>
+                   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    <header>
+        <section class="header-top clearfix">
+                <div class="logo">
+                        <a class="logoimg" href="index.html">
+                            <img src="../images/index_logo.png" alt="">
+                        </a>
+                        <p class="logo_txt">
+                            <br> 我们只想伴你走过一段温柔的时光，
+                            <br> 不疏不离，不舍不弃。
+                            <br> 小小酒杯载不动山高水长，殷殷里飘起缕缕牵肠的欲说还休。
+                        </p>
+                    </div>
+        </section>
+    </header>
+    <div class="content" >
+           <div class="login">
+               <div class="blackhead">用户登录</div>
+               <div class="form">
+                   <form action="index.html">
+                                <div class="userInput"><strong>用户名</strong><input id="username" type="text" name="username" placeholder="请输入用户名"></div>
+                                <p class="message_user">请检查用户名输入是否有误</p>
+                                <div class="pwInput"><strong>密码</strong><input id="pw" type="text" name="password" placeholder="请输入密码"></div>
+                                <p class="message_pw">请检查密码输入是否有误</p>
+                                <div class="code clearfix">
+                                <div class="codeInput"><strong>验证码</strong><input name="code" type="text" placeholder="请输入验证码"></div>
+                                <div id="idcode"></div>
+                             </div>
+                             <div class="message clearfix">
+                                 <p><a href="register.html">免费注册</a></p>
+                                 <p><a href="#">忘记密码</a></p>
+                             </div>
+                             <input type="submit" name="submit" value="确定登录">
+                            
+                   </form>
+               </div>
+           </div>
+   </div>
+    <footer>
+            <div class="footerone">
+            <div class="first-footer  clearfix">
+                <ul>
+                    <li>
+                         <span></span>100%品牌保证
+                    </li>
+                    <li>
+                         <span></span>7天无理由退换
+                    </li>
+                    <li>
+                        <span></span>售后服务保障
+                    </li>
+                </ul>
+    
+            </div>
+            <div class="second-footer clearfix">
+                    <dl>
+                        <dt>购物指南</a></dt>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">免费注册</a></dd>
+                        <dd><a href="#">导购演示</a></dd>
+                        <dd><a href="#">品牌大全</a></dd>
+                    </dl>
+                    <dl>
+                         <dt>支付方式</dt>
+                         <dd><a href="#">支付宝支付</a></dd>
+                         <dd><a href="#">网银支付</a></dd>
+                         <dd><a href="#">快捷支付</a></dd>
+                         <dd><a href="#">分期支付</a></dd>
+                         <dd><a href="#">货到付款</a></dd>
+                     </dl>
+                     <dl>
+                         <dt>物流配送</dt>
+                         <dd><a href="#">免运费政策</a></dd>
+                         <dd><a href="#">配送服务承诺</a></dd>
+                         <dd><a href="#">签收验货</a></dd>
+                         <dd><a href="#">物流查询</a></dd>
+                         </dl>
+                         <dl>
+                         <dt>售后服务</dt>
+                         <dd><a href="#">退换货政策</a></dd>
+                         <dd><a href="#">退换货流程</a></dd>
+                         <dd><a href="#">退款说明</a></dd>
+                         <dd><a href="#">退换货申请</a></dd>
+                         <dd><a href="#">发票保障</a></dd>
+                       </dl>
+                     <dl>
+                        <dt>商家服务</dt>
+                        <dd><a href="#">商家入驻</a></dd>
+                        <dd><a href="#">商家中心</a></dd>
+                        <dd><a href="#">商家帮助</a></dd>
+                        <dd><a href="#">运营服务</a></dd>
+                     </dl>
+                 </div>
+        </div>
+          <div class="footertwo">
+            <div class="copyright">
+              <p>湘公网安备 3305485457544515</p>
+              <p>copyright @2017 Qanyan.biz.All rights.reserved</p>
+            </div>
+          </div>
+        </footer>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.7.2/jquery.min.js"></script>
+<script src="../js/jquery.idcode.js"></script>
+<script src="../js/login.js"></script>
+</html>

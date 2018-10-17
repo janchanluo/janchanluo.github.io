@@ -1,0 +1,254 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .title {
+  padding: 15px 0;
+}
+.content .title ul li {
+  float: left;
+}
+.content .title ul li a {
+  color: #2c2c2c;
+}
+.content .title ul li:last-child {
+  color: #ff0000;
+}
+.content .shop_cart .qx {
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  cursor: pointer;
+  left: 18px;
+}
+.content .shop_cart .qx .qxInput {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  background: url(../images/shop_cart_bgchoose.png) no-repeat;
+}
+.content .shop_cart .checkbox {
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: url(../images/shop_cart_bgchoose.png) no-repeat;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.content .shop_cart .shop_cart_choose {
+  background: url(../images/shop_cart_choose.png) no-repeat;
+  width: 25px;
+  height: 16px;
+  position: absolute;
+  left: -2px;
+  margin-top: 3px;
+}
+.content .shop_cart input[type=checkbox] {
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.content .shop_cart table {
+  width: 1200px;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+.content .shop_cart table tr th {
+  border-bottom: 1px solid #6e6d6d;
+  border-top: 1px solid #6e6d6d;
+  font-size: 18px;
+  padding: 10px 0;
+  font-weight: 400;
+}
+.content .shop_cart table tr th:first-child {
+  border-left: 1px solid #6e6d6d;
+}
+.content .shop_cart table tr th:last-child {
+  border-right: 1px solid #6e6d6d;
+}
+.content .shop_cart table tr td {
+  padding: 15px 0;
+  border-bottom: 1px solid #6e6d6d;
+  border-top: 1px solid #6e6d6d;
+}
+.content .shop_cart table tr td .num button {
+  background-color: #5d5a5a;
+  width: 30px;
+  height: 30px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.content .shop_cart table tr td .num input {
+  border: none;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  border-bottom: 1px solid #6e6d6d;
+  border-top: 1px solid #6e6d6d;
+}
+.content .shop_cart table tr td:first-child {
+  border-left: 1px solid #6e6d6d;
+}
+.content .shop_cart table tr td:last-child {
+  border-right: 1px solid #6e6d6d;
+}
+.content .shop_cart table tr .goodsMessage {
+  text-align: left;
+  width: 500px;
+}
+.content .shop_cart table tr .goodsMessage a {
+  color: #000;
+}
+.content .shop_cart table tr .goodsMessage span {
+  float: left;
+}
+.content .shop_cart table tr .goodsMessage dl {
+  margin: 10px 0 0 10px;
+  float: left;
+}
+.content .shop_cart table tr .priceSum {
+  font-size: 24px;
+  color: #ff0000;
+}
+.content .shop_cart table tr .priceSum em {
+  font-style: normal;
+}
+.content .shop_cart table tr .price {
+  font-size: 24px;
+  color: #ff0000;
+}
+.content .shop_cart table tr .price em {
+  font-style: normal;
+}
+.content .shop_cart table tr .line_price {
+  width: 100px;
+}
+.content .shop_cart table tr .del {
+  cursor: pointer;
+}
+.content .shop_cart .balance {
+  border: 1px solid #000;
+  height: 55px;
+  line-height: 55px;
+  margin-top: 30px;
+}
+.content .shop_cart .balance .qx {
+  position: relative;
+  left: 0;
+}
+.content .shop_cart .balance ul {
+  font-size: 18px;
+}
+.content .shop_cart .balance ul li {
+  float: left;
+  padding-left: 44px;
+}
+.content .shop_cart .balance ul li button {
+  height: 55px;
+  padding: 0 35px;
+  border: none;
+  background-color: #b40303;
+  color: #fff;
+  cursor: pointer;
+}
+.content .shop_cart .balance ul li input {
+  cursor: pointer;
+}
+.content .shop_cart .balance ul .priceSum {
+  color: #ff0000;
+  font-size: 28px;
+}
+.content .shop_cart .balance ul .priceSum em {
+  font-style: normal;
+}
+.content .shop_cart .balance ul .price {
+  color: #ff0000;
+  font-size: 28px;
+}
+.content .shop_cart .balance ul .price em {
+  font-style: normal;
+}
+.content .shop_cart .balance ul .goodsNum span {
+  color: #ff0000;
+}
+.content .shop_cart .balance ul .right {
+  float: right;
+}
+.content .shop_cart .balance ul .delAll {
+  cursor: pointer;
+}

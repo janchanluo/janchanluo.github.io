@@ -1,0 +1,231 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .title {
+  padding: 15px 0;
+}
+.content .title ul li {
+  float: left;
+}
+.content .title ul li a {
+  color: #2c2c2c;
+}
+.content .title ul li:last-child {
+  color: #ff0000;
+}
+.content .commen-list {
+  width: 220px;
+  height: 530px;
+  border: 2px solid #737373;
+  text-align: center;
+  float: left;
+}
+.content .commen-list h2:first-child {
+  margin-top: 25px;
+}
+.content .commen-list h2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px 15px;
+  margin: 0 auto;
+  width: 100px;
+  border-bottom: 1px solid #101113;
+}
+.content .commen-list ul li {
+  margin: 8px 0;
+}
+.content .commen-list ul li a {
+  color: #2c2c2c;
+}
+.content .commen-list ul li a:hover {
+  color: #ff0000;
+}
+.content .commen-list ul li.current a {
+  color: #ff0000;
+}
+.content .main {
+  margin-left: 55px;
+  width: 853px;
+  float: left;
+}
+.content .main > .title {
+  border-bottom: 1px dashed #2c2c2c;
+}
+.content .main > .title p {
+  font-size: 16px;
+}
+.content .main .userMessage {
+  padding: 30px 0 0 25px;
+  border: 2px solid #706f6f;
+  min-height: 175px;
+}
+.content .main .userMessage .user-portrait {
+  float: left;
+}
+.content .main .userMessage .user-portrait img {
+  border: 1px solid #706f6f;
+}
+.content .main .userMessage .userinfo {
+  float: left;
+  margin-left: 30px;
+}
+.content .main .userMessage .userinfo p {
+  font-size: 16px;
+}
+.content .main .userMessage .userinfo dl {
+  font-size: 14px;
+  padding: 15px 0;
+}
+.content .main .userMessage .userinfo dl dd {
+  float: left;
+}
+.content .main .userMessage .userinfo dl dd.wait span,
+.content .main .userMessage .userinfo dl dd.score span,
+.content .main .userMessage .userinfo dl dd.coupon span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.content .main .order {
+  margin-top: 45px;
+  min-height: 190px;
+  border: 2px solid #706f6f;
+}
+.content .main .order table {
+  border-collapse: collapse;
+  width: 853px;
+}
+.content .main .order table tr th {
+  border-bottom: 2px #706f6f solid;
+  padding: 10px 0;
+}
+.content .main .order table tr td {
+  padding: 20px;
+}
+.content .main .order table tr .googsImg {
+  width: 350px;
+}
+.content .main .order table tr .googsImg a {
+  color: #000;
+}
+.content .main .order table tr .googsImg a:hover {
+  color: #ff0000;
+}
+.content .main .order table tr .googsImg img {
+  float: left;
+}
+.content .main .order table tr .googsImg dl {
+  position: relative;
+  font-size: 14px;
+  left: 15px;
+  line-height: 30px;
+}
+.content .main .order table tr .money div {
+  float: left;
+}
+.content .main .order table tr .money div p {
+  font-size: 24px;
+}
+.content .main .order table tr .money div p em {
+  font-style: normal;
+}
+.content .main .order table tr .money div p:last-child {
+  text-decoration: line-through;
+  color: #7e7e7e;
+}
+.content .main .order table tr .money span.success {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+  color: #545454;
+  font-size: 18px;
+}
+.content .main .order table tr td.userDo {
+  text-align: center;
+}
+.content .main .order table tr td.userDo p > a {
+  color: #545454;
+}
+.content .main .order table tr td.userDo p > a:hover {
+  color: #ff0000;
+}
+.content .main .order table tr td.userDo p.comment a {
+  color: #ff0000;
+}
+.content .main .order button {
+  background-color: #cd0505;
+  color: #fff;
+  padding: 10px 2px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+}
+.content .main .order button a {
+  padding: 12px 6px;
+  color: #fff;
+}

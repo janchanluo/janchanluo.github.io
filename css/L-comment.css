@@ -1,0 +1,259 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .title {
+  padding: 15px 0;
+}
+.content .title ul li {
+  float: left;
+}
+.content .title ul li a {
+  color: #2c2c2c;
+}
+.content .title ul li:last-child {
+  color: #ff0000;
+}
+.content .commen-list {
+  width: 220px;
+  height: 530px;
+  border: 2px solid #737373;
+  text-align: center;
+  float: left;
+}
+.content .commen-list h2:first-child {
+  margin-top: 25px;
+}
+.content .commen-list h2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px 15px;
+  margin: 0 auto;
+  width: 100px;
+  border-bottom: 1px solid #101113;
+}
+.content .commen-list ul li {
+  margin: 8px 0;
+}
+.content .commen-list ul li a {
+  color: #2c2c2c;
+}
+.content .commen-list ul li a:hover {
+  color: #ff0000;
+}
+.content .commen-list ul li.current a {
+  color: #ff0000;
+}
+.content .evaluate {
+  margin: 20px 0 0 55px ;
+  width: 917px;
+  float: left;
+}
+.content .evaluate > .title {
+  border-bottom: 1px dashed #2c2c2c;
+}
+.content .evaluate > .title p {
+  font-size: 16px;
+}
+.content .evaluate .pro_details {
+  padding: 15px 0 0 35px;
+}
+.content .evaluate .pro_details img {
+  float: left;
+}
+.content .evaluate .pro_details .goods {
+  float: left;
+  width: 200px;
+  font-size: 14px;
+  margin-left: 35px;
+  line-height: 25px;
+}
+.content .evaluate .pro_details .goods p span {
+  color: #ff0000;
+  font-size: 16px;
+}
+.content .evaluate .pro_details .goods p em {
+  font-style: normal;
+  color: #ff0000;
+}
+.content .evaluate .myevaluate {
+  width: 659px;
+}
+.content .evaluate .myevaluate > p.title {
+  padding: 20px 0;
+}
+.content .evaluate .myevaluate p {
+  font-size: 16px;
+  clear: both;
+}
+.content .evaluate .myevaluate .comment p {
+  margin-bottom: 25px;
+}
+.content .evaluate .myevaluate .comment span {
+  cursor: pointer;
+  display: inline-block;
+  background: url(../images/stargrey.png) no-repeat;
+  width: 23px ;
+  height: 22px;
+  vertical-align: top;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.content .evaluate .myevaluate .comment .starred {
+  display: inline-block;
+  background: url(../images/starred.png) no-repeat;
+  width: 23px ;
+  height: 22px;
+  vertical-align: top;
+  padding-left: 5px;
+}
+.content .evaluate .myevaluate .textarea {
+  position: relative;
+}
+.content .evaluate .myevaluate .textarea textarea {
+  width: 645px;
+  padding: 6px;
+}
+.content .evaluate .myevaluate .textarea span.txtnum {
+  position: absolute;
+  right: -10px;
+  bottom: 10px;
+  width: 80px;
+  font-size: 16px;
+  color: #909090;
+}
+.content .evaluate .myevaluate .file {
+  margin-top: 35px;
+}
+.content .evaluate .myevaluate .file .fileImg {
+  position: relative;
+  float: left;
+}
+.content .evaluate .myevaluate .file .fileImg .upload {
+  cursor: pointer;
+  padding: 8px 10px;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  top: -5px;
+  margin-right: 35px;
+  background-color: #888787;
+  color: #fff;
+}
+.content .evaluate .myevaluate .file .fileImg .upload label {
+  cursor: pointer;
+  display: block;
+}
+.content .evaluate .myevaluate .file .fileImg .change {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 80px;
+  top: -4px;
+  opacity: 0;
+  cursor: pointer;
+}
+.content .evaluate .myevaluate .file .fileCheck .anonymous,
+.content .evaluate .myevaluate .file .fileCheck .public {
+  float: left;
+  cursor: pointer;
+}
+.content .evaluate .myevaluate .file .fileCheck .inputChoose {
+  background: url(../images/radius.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  margin-left: 40px;
+  display: inline-block;
+}
+.content .evaluate .myevaluate .file .fileCheck input {
+  display: none;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+.content .evaluate .myevaluate .file .fileCheck .checked {
+  margin-left: 40px;
+  background: url("../images/checkedradius.png") no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+.content .evaluate .myevaluate .file .fileCheck label {
+  vertical-align: top;
+  margin: 0 10px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.content .evaluate .myevaluate button {
+  float: right;
+  color: #fff;
+  cursor: pointer;
+  background-color: #b40303;
+  padding: 8px 10px;
+  border: none;
+  clear: both;
+}

@@ -1,0 +1,244 @@
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* //消除边距 */
+header,
+footer,
+nav,
+section,
+article {
+  display: block;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+.cur {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* //标签小圆点 */
+a {
+  text-decoration: none;
+}
+/* //a标签下划线清除 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/* //伪类清除浮动兼容ie 6，7 */
+.auto {
+  margin: 0 auto;
+}
+/* //元素水平居中 */
+.fl {
+  float: left;
+}
+/* //左浮动 */
+.fr {
+  float: right;
+}
+/* //右浮动 */
+/* //边框 */
+.txtcenteralign {
+  text-align: center;
+}
+.content {
+  width: 1200px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.content .title {
+  padding: 15px 0;
+}
+.content .title ul li {
+  float: left;
+}
+.content .title ul li a {
+  color: #2c2c2c;
+}
+.content .title ul li:last-child {
+  color: #ff0000;
+}
+.content .pay {
+  width: 784px;
+  margin: 35px 0 0 35px;
+}
+.content .pay .okimg {
+  background: url(../images/ok.png) no-repeat;
+  width: 133px;
+  height: 119px;
+  float: left;
+}
+.content .pay .checkmoney {
+  position: relative;
+  left: 45px;
+}
+.content .pay .checkmoney ul > li {
+  padding-bottom: 20px;
+}
+.content .pay .checkmoney ul > li span {
+  color: #ff0000;
+  font-size: 24px;
+}
+.content .pay .checkmoney ul > li:last-child {
+  padding-bottom: 0;
+}
+.content .borderbottom {
+  border-bottom: 1px solid #2c2c2c;
+  margin: 55px 0 15px 0;
+}
+.content .payuse {
+  width: 1153px;
+  margin: 0 auto;
+}
+.content .payuse .title {
+  color: #ff0000;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.content .payuse .payway p {
+  margin: 20px 0 15px 0;
+  font-size: 20px;
+}
+.content .payuse .payway .borderbottom {
+  border-bottom: 1px dashed #2c2c2c;
+  margin: 5px 0;
+}
+.content .payuse .payway li {
+  padding: 15px 200px 15px 0;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.content .payuse .payway li span {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 47px 0  60px;
+}
+.content .payuse .payway li strong {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content .payuse .payway li div {
+  background: url(../images/radius.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  margin-top: 11px;
+  display: inline-block;
+}
+.content .payuse .payway li input[type=radio] {
+  opacity: 0;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+.content .payuse .payway li .checked {
+  background: url("../images/checkedradius.png") no-repeat;
+  width: 22px;
+  height: 22px;
+}
+.content .payuse .payway .paybank_left {
+  float: left;
+}
+.content .payuse .payway .paybank_left li:first-child > span {
+  background: url(../images/bank1.png) no-repeat;
+}
+.content .payuse .payway .paybank_left li:nth-child(2) > span {
+  background: url(../images/bank2.png) no-repeat;
+}
+.content .payuse .payway .paybank_left li:last-child > span {
+  background: url(../images/bank3.png) no-repeat;
+}
+.content .payuse .payway .paybank_right li {
+  border-bottom: 1px dashed #2c2c2c;
+}
+.content .payuse .payway .paybank_right li:first-child > span {
+  background: url(../images/bank4.png) no-repeat;
+}
+.content .payuse .payway .paybank_right li:nth-child(2) > span {
+  background: url(../images/bank5.png) no-repeat;
+}
+.content .payuse .payway .paybank_right li:last-child > span {
+  background: url(../images/bank6.png) no-repeat;
+}
+.content .payuse .payway .roofpay li {
+  border-bottom: 1px dashed #2c2c2c;
+}
+.content .payuse .payway .roofpay li:first-child > span {
+  background: url(../images/pay.png) no-repeat;
+}
+.content .payuse .payway .roofpay li:last-child > span {
+  background: url(../images/wechat.png) no-repeat;
+}
+.content .surepay {
+  margin-left: 73px;
+}
+.content .surepay p:first-child {
+  font-size: 28px;
+}
+.content .surepay p:first-child span {
+  color: #ff0000;
+}
+.content .surepay p:nth-child(2) {
+  font-size: 20px;
+}
+.content .surepay p:nth-child(2) span {
+  background: url(../images/severs.png) no-repeat;
+  width: 34px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -34px;
+}
+.content .surepay .sixpw {
+  font-size: 16px;
+}
+.content .surepay > div a {
+  color: #ff0000;
+  font-size: 16px;
+}
+.content .surepay > div input {
+  width: 45px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -9px;
+  text-align: center;
+  font-size: 24px;
+}
+.content .surepay > div input:first-child {
+  margin-left: 0;
+}
+.content .surepay input[type=submit] {
+  width: 130px;
+  height: 48px;
+  border: none;
+  background-color: #b40303;
+  color: #fff;
+  line-height: 48px;
+  margin-top: 35px;
+  font-size: 28px;
+  cursor: pointer;
+}
